@@ -24,11 +24,30 @@ def home():
 def admissions():
     return """
     <html>
-        <head><title>Admissions</title></head>
-        <body style="text-align:center; margin-top:50px;">
-            <h1>Admissions Information</h1>
-            <p>Admissions are open for 2025. Apply Now!</p>
-            <p><a href="/">Back to Home</a></p>
+        <head><title>Admissions - IIHMCA</title></head>
+        <body style="font-family: Arial, sans-serif; margin: 40px;">
+            <h1 style="text-align:center;">Admissions Information</h1>
+            
+            <h2>Admission Process:</h2>
+            <ol>
+                <li>Complete the online application form on <a href="https://www.iihmca.org" target="_blank">www.iihmca.org</a> providing personal information, contact details, and academic history. Submit transcripts from the most recent school/college attended.</li>
+                <li>Pay the non-refundable application fee of Rs.500/- which can be done online.</li>
+            </ol>
+
+            <h2>Admission & Selection Process:</h2>
+            <h3>Step 1: Academic Evaluation</h3>
+            <p>All applicants undergo a thorough academic evaluation. This includes a review of their transcripts, GPA/test scores, and any advanced coursework or classes taken.</p>
+            
+            <h3>Step 2: Common Entrance Exam (CEE)</h3>
+            <p>Students have to qualify in the Common Entrance Exam, which may include assessments in General Knowledge, General English, Test of Reasoning, and Numerical Ability conducted at the campus or Online.</p>
+            
+            <h3>Step 3: Interview</h3>
+            <p>Shortlisted candidates are invited for a one-on-one interview with the Interview Panel. The interview assesses the student's interpersonal skills, interests, and alignment with the course requirements.</p>
+            
+            <h3>Step 4: Final Review and Selection</h3>
+            <p>The admissions committee conducts a final review of all application materials, considering academic performance, test scores, interview results, and essays. Offers of Admission are based on this holistic evaluation.</p>
+            
+            <br><p style="text-align:center;"><a href="/">Back to Home</a></p>
         </body>
     </html>
     """
